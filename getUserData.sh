@@ -1,5 +1,4 @@
-#!/bin/zsh
-gh api \
+curl -L \
   -H "Accept: application/vnd.github+json" \
   -H "X-GitHub-Api-Version: 2022-11-28" \
-  /users/USERNAME/hovercard
+  https://api.github.com/users/USERNAME/hovercardi
